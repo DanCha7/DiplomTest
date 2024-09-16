@@ -1,0 +1,376 @@
+.container {
+  max-width: 1180px;
+  margin: auto;
+  padding: 0px 20px;
+}
+
+/* MainBanner */
+
+.banner {
+  background-color: var(--purple);
+}
+
+.banner__content {
+  padding: 150px 20px;
+  margin-bottom: 70px;
+}
+
+.f__title {
+  font-family: "Intro Regular";
+  font-size: 36px;
+  line-height: 50.4px;
+  font-weight: 400;
+  max-width: 550px;
+  color: white;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.f__title::before {
+  z-index: 0;
+  position: absolute;
+  content: "SneakMax";
+  font-family: Intro Bold;
+  font-size: 200px;
+  line-height: 200px;
+  font-weight: 700;
+  opacity: 20%;
+  top: 80px;
+  left: 200px;
+}
+
+.title__under {
+  font-family: Intro Book;
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: 400;
+  max-width: 470px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.btn__banner {
+  color: white;
+  font-family: Intro Regular;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  padding: 20px 30px;
+  background-color: var(--btn-lgt);
+  border-radius: 5px;
+}
+
+@media (max-width: 1280px) {
+  .f__title::before {
+    z-index: 0;
+    position: absolute;
+    content: "SneakMax";
+    font-family: Intro Bold;
+    font-size: 100px;
+    font-weight: 700;
+    opacity: 20%;
+    top: 130px;
+    left: 400px;
+  }
+}
+
+/* questions */
+
+.form__subm {
+  width: 380px;
+  height: 402px;
+  background-color: var(--purple);
+  border-radius: 4px;
+  text-align: center;
+  color: white;
+}
+
+.questions__content {
+  gap: 40px;
+  padding: 90px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quest__title {
+  padding-top: 50px;
+  font-weight: 700;
+  font-family: Intro Bold;
+  line-height: 30px;
+  font-size: 30px;
+}
+
+.under__tit {
+  max-width: 250px;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: Intro Book;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.form__otpr {
+  display: flex;
+  flex-direction: column;
+  width: 340px;
+  margin: auto;
+}
+
+input {
+  padding: 20px 0px;
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: 400;
+  font-family: Intro Book;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+.sbm__tp {
+  background-color: var(--red);
+  padding: 22px 44px;
+  font-family: Intro Regular;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+  border-radius: 4px;
+  border: none;
+}
+
+/* chasto */
+
+.title__sect {
+  font-size: 30px;
+  line-height: 30px;
+  font-weight: 700;
+  font-family: Intro Bold;
+  color: var(--btn-l-grey);
+  margin-bottom: 30px;
+}
+
+.que__content {
+  padding: 70px 0px;
+}
+
+/* --------- */
+details > summary {
+  cursor: pointer;
+  padding: 20px;
+  font-family: Intro Regular;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  color: #242424;
+}
+
+details > p {
+  margin: auto;
+  padding: 10px;
+  font-size: 16px;
+  color: #24242480;
+  line-height: 22.4px;
+  font-family: Intro Book;
+}
+
+.block__t {
+  padding: 10px 0px;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.block__n {
+  padding: 10px 0px;
+  border-bottom: 1px solid black;
+  margin-bottom: 80px;
+}
+
+/* img__content */
+
+.img__content {
+  background-color: var(--purple);
+  
+}
+
+.content__banner_img {
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-between;
+  background: url("/public/icons/Mask Group.png"), url(/src/assets/images/figure.png) ;
+  
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  padding-top: min(222px, 14vw);
+  padding-bottom: min(160px, 10vw);
+}
+
+.title__imgbn {
+  position: relative;
+  font-size: 30px;
+  font-family: Intro Bold;
+  font-weight: 700;
+  line-height: 30px;
+  margin-bottom: 25px;
+}
+
+.title__imgbn::before {
+  position: absolute;
+  content: "SneakMax";
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 700;
+  font-family: Intro Bold;
+  top: 199px;
+  left: 338px;
+}
+
+.under__imgbn {
+  position: relative;
+  max-width: 380px;
+  font-family: Intro Book;
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: 400;
+}
+
+.under__imgbn::before {
+  position: absolute;
+  content: "";
+  width: 30px;
+  height: 2px;
+  background-color: white;
+  top: 153px;
+  left: 290px;
+}
+
+.content__product {
+  display: flex;
+}
+
+.content__accordion {
+  max-width: 1000px;
+  margin: auto;
+  border-top: 1px solid black;
+}
+
+.accordion {
+  margin-bottom: 16px;
+  border-bottom: 1px solid var(--grey);
+}
+
+.accordion-header {
+  padding: 14px 14px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: none;
+}
+
+.accordion-header h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.accordion-icon {
+  font-size: 30px;
+  font-weight: 100;
+  transition: transform 0.3s ease;
+}
+
+.accordion-icon.open {
+  transform: rotate(45deg);
+}
+
+.accordion-content {
+  padding: 16px;
+}
+
+.under__block {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.team {
+  background-color: var(--purple);
+  background-image: url("/src/assets/images/krug.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 541px;
+}
+
+.team__content {
+  color: white;
+  padding: 20px 20px;
+}
+
+.team__title {
+  font-size: 30px;
+  font-family: Intro Bold;
+  line-height: 30px;
+  font-weight: 700;
+}
+
+.list__team {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  padding: 10px 5px;
+}
+
+.img__team {
+  max-width: 387px;
+  max-height: 462px;
+  margin-bottom: 15px;
+  border-radius: 4px;
+}
+
+.name__title {
+  font-family: Intro Bold;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.title__under {
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+@media (max-width: 1280px) {
+  .team {
+    background-size: 350px;
+  }
+  .list__team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    padding: 20px 5px;
+  }
+}
+@media (max-width: 830px) {
+  .team {
+    background-size: 350px;
+  }
+  .list__team {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    padding: 20px 5px;
+  }
+}
+
+.btn__products__List {
+  display: flex;
+  justify-content: center;
+}
+
+
+

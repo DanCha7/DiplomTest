@@ -1,0 +1,41 @@
+:root {
+  --purple: #484283;
+  --red: #f14f4f;
+  --grey: #444b58;
+  --bej: #dbbba9;
+  --white: #fff4ee;
+  --light-grey: #b2b5bb;
+
+  --btn-lgt: #f14f4f;
+  --btn-md: #cc4949;
+  --btn-drk: #8c2828;
+
+  --btn-l-grey: #444b58;
+  --btn-dk-grey: #31343c;
+
+  --btn-bor: #b2b5bb;
+  --bk: #f3f6f6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: "Intro Regular";
+  src: url("/src/assets/fonts/intro_regular.ttf");
+}
+
+@font-face {
+  font-family: "Intro Bold";
+  src: url("/src/assets/fonts/intro_bold.ttf");
+}
+
+@font-face {
+  font-family: "Intro Book";
+  src: url("/src/assets/fonts/Intro-Book.ttf");
+}
+
+
+
+

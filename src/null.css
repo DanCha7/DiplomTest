@@ -1,0 +1,54 @@
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+p,
+span {
+  margin: 0;
+}
+
+input::-ms-clear {
+  display: ;
+}
+input::-webkit-input-placeholder,
+input::-moz-placeholder,
+input::placeholder {
+  color: ;
+}
+
+button {
+  cursor: pointer;
+  color: inherit;
+  text-transform: inherit;
+}
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
